@@ -1,0 +1,146 @@
+.showcase {
+    background: rgb(19, 19, 19);
+    height: 100%;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    padding-top: 3rem;
+    columns: #fff;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+
+#img {
+    width: 12vw;
+    height: 6vh;
+    cursor: pointer;
+
+}
+
+.nav-items {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+}
+
+.nav-items li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-items li a {
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img1 {
+    padding: 7px;
+}
+
+.label {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    left: 1rem;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.cap1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: medium;
+
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+.cap2 {
+    color: rgb(184, 179, 179);
+
+}
+
+
+
+
+.nav-items li {
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+
+
+.footer-container1 {
+    width: 100%;
+    background-color: rgb(26, 34, 32);
+    height: 500px;
+}
+
+.footer-container2 {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.footer-class1 {
+    font-family: sans-serif;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+.footer-class2 {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.footer-class2 h4{
+font-family: sans-serif;
+font-weight: 500;
+cursor: pointer;
+
+}
+
+
